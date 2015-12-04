@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center">
-    tools:context="com.example.bcmb.geoquiz.ChearActivity">
+    tools:context="com.example.bcmb.geoquiz.CheatActivity">
 
     <TextView
         android:layout_width="wrap_content"

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cheat_confirmation"
+        android:layout_marginTop="250dp"
+        android:paddingBottom="10dp"
+         android:textSize="20sp"
+        android:text="@string/confirm_cheating"
+        />
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_answer_button"
+        android:id="@+id/show_answer_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cheat_confirmation"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_answer_button"
+        android:id="@+id/build_versiom"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
